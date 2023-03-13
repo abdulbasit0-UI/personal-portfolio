@@ -16,7 +16,7 @@ import portfolio1 from '../../image/portfolio-1.png';
 import portfolio2 from '../../image/portfolio-2.png';
 
 import Script from 'next/script'
-const inter = Inter({ subsets: ['latin'] })
+import Head from 'next/head'
 
 export default function Home() {
   return (

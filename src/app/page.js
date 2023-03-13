@@ -40,6 +40,8 @@ export default function Home() {
           <a className='instagram' target="_blank" href='https://www.instagram.com/abdulbasithussain9/'>
             <i class="fa-brands  fa-square-instagram"></i>
           </a>
+          <br />
+          <a className='btn btn-primary mt-3' href='Abdulbasit-Hussain.docx' target="_blank"><i style={{ fontSize: "1rem" }} class="fa-solid fa-file-word"></i> Download Resume</a>
           <div className='mt-4'>
             <h4 className='heading'>About Me</h4>
             <p>

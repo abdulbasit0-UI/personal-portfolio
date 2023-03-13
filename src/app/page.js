@@ -8,7 +8,7 @@ import HtmlLogo from '../../image/html-logo.png';
 import CssLogo from '../../image/css-logo.png';
 import NodeLogo from '../../image/node-logo.png';
 import MongoDbLogo from '../../image/mongodb-logo.png';
-import BootstrapLogo from '../../image/bootstrap-logo.png';
+import BootstrapLogo from '../../image/Bootstrap-logo.png';
 import nextjsLogo from '../../image/next-logo.png';
 import sassLogo from '../../image/sass-logo.png';
 import graphqlLogo from '../../image/graphql-logo.png';

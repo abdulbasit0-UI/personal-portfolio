@@ -14,6 +14,10 @@ import sassLogo from '../../image/sass-logo.png';
 import graphqlLogo from '../../image/graphql-logo.png';
 import portfolio1 from '../../image/portfolio-1.png';
 import portfolio2 from '../../image/portfolio-2.png';
+import portfolio3 from '../../image/portfolio-3.png';
+import portfolio4 from '../../image/portfolio-4.png';
+
+
 
 import Script from 'next/script'
 import Head from 'next/head'
@@ -132,6 +136,30 @@ export default function Home() {
               <div className='card-body'>
                 <h4 className='card-title'>Weather Web app - React</h4>
                 <a href='https://abd-weather.vercel.app/' target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>  https://abd-weather.vercel.app/</a>
+              </div>
+              <div className='card-footer'>
+                <span class="badge text-bg-success">SPA Web App</span>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-4'>
+            <div className='card'>
+              <Image src={portfolio3} className="card-img-top" />
+              <div className='card-body'>
+                <h4 className='card-title'>Real Estate Landing Page</h4>
+                <a href='https://nextour-realestate.netlify.app/' target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>  https://nextour-realestate.netlify.app/</a>
+              </div>
+              <div className='card-footer'>
+                <span class="badge text-bg-success">SPA Web App</span>
+              </div>
+            </div>
+          </div>
+          <div className='col-md-4'>
+            <div className='card'>
+              <Image src={portfolio4} className="card-img-top" />
+              <div className='card-body'>
+                <h4 className='card-title'>Hotel Booking landing page</h4>
+                <a href='https://trillo-abdul.netlify.app/' target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>  https://trillo-abdul.netlify.app/</a>
               </div>
               <div className='card-footer'>
                 <span class="badge text-bg-success">SPA Web App</span>
